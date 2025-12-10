@@ -6,7 +6,7 @@ date-released: "2025-12-09"
 repository-code: "https://github.com/mosriva/ragstack"
 url: "https://github.com/mosriva/ragstack"
 license: "MIT"
-doi: "10.5281/zenodo.XXXXXXX"  # To be replaced after Zenodo DOI is minted
+doi: "10.5281/zenodo.17878948"  
 
 authors:
   - family-names: "Srivastava"
@@ -41,6 +41,6 @@ preferred-citation:
       given-names: "Mohit"
   title: "RAGStack: A Privacy-First GenAI Retrieval-Augmented Generation Architecture for Secure Enterprise Document Intelligence"
   year: 2025
-  doi: "10.5281/zenodo.XXXXXXX"  # To be updated after DOI is generated
+  doi: "10.5281/zenodo.17878948"  # To be updated after DOI is generated
   notes: "Preprint available on TechRxiv (pending publication)."
 
