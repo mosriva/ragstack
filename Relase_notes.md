@@ -5,7 +5,7 @@
 **Status:** Initial Public Release  
 **License:** MIT  
 **Repository:** https://github.com/mosriva/ragstack
-**DOI (Zenodo):** 10.5281/zenodo.XXXXXXX *(to be updated post-deposit)*
+**DOI (Zenodo):** 10.5281/zenodo.17878948 
 
 ---
 
