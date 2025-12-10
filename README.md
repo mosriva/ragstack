@@ -4,7 +4,7 @@
 <p align="center">
   <a href="https://github.com/mosriva/ragstack/stargazers"><img src="https://img.shields.io/github/stars/mosriva/ragstack?style=flat-square&color=yellow" alt="GitHub Stars"></a>
   <a href="https://github.com/mosriva/ragstack/releases"><img src="https://img.shields.io/github/v/release/mosriva/ragstack?style=flat-square&color=blue" alt="Latest Release"></a>
-  <a href="https://zenodo.org/badge/latestdoi/zenodo.XXXXXXX"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg" alt="DOI"></a>
+  <a href="https://zenodo.org/badge/latestdoi/zenodo.17878948"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17878948.svg" alt="DOI"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"></a>
   <a href="https://techrxiv.org"><img src="https://img.shields.io/badge/Preprint-TechRxiv-orange?style=flat-square" alt="TechRxiv"></a>
 </p>
@@ -248,7 +248,7 @@ You are free to use, modify, and distribute it with attribution.
 
 If you use this work in your research, please cite:
 
-Srivastava, M. (2025). RAGStack: A Privacy-First GenAI Retrieval-Augmented Generation Architecture for Secure Enterprise Document Intelligence. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Srivastava, M. (2025). RAGStack: A Privacy-First GenAI Retrieval-Augmented Generation Architecture for Secure Enterprise Document Intelligence. Zenodo. https://doi.org/10.5281/zenodo.17878948
 
 ## 🙌 Acknowledgments & Inspiration
 
