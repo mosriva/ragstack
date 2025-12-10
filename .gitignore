@@ -1,0 +1,63 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+build/
+dist/
+.eggs/
+.python-version
+*.egg
+MANIFEST
+
+# Virtual envs
+.venv/
+venv/
+env/
+rag_venv/
+.conda/
+
+# Jupyter / tools
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json  # Keep shared workspace config if later added
+*.code-workspace
+
+# Streamlit
+.streamlit/*
+!.streamlit/config.toml  # Optional if config is committed intentionally
+
+# Project data (store locally, not in git)
+uploaded_pdfs/*
+index/*
+logs/*
+
+# Keep directories
+!uploaded_pdfs/.gitkeep
+!index/.gitkeep
+!logs/.gitkeep
+!uploaded_pdfs/sample/*  # Optional: allow sample data
+
+# Cache & reports
+.cache/
+.coverage
+coverage.xml
+
+# Environment & secrets
+.env
+.env.*
+*.env
+secrets.*.toml
+
+# Optional — Ollama models/cache (do not commit!)
+# ~/.ollama/

@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "RAGStack: A Privacy-First GenAI Retrieval-Augmented Generation Architecture for Secure Enterprise Document Intelligence"
+version: "v1.0.0"
+date-released: "2025-12-09"
+repository-code: "https://github.com/mosriva/ragstack"
+url: "https://github.com/mosriva/ragstack"
+license: "MIT"
+doi: "10.5281/zenodo.XXXXXXX"  # To be replaced after Zenodo DOI is minted
+
+authors:
+  - family-names: "Srivastava"
+    given-names: "Mohit"
+    email: "mosriva@gmail.com"
+    affiliation: "Independent Researcher & Enterprise AI Architect"
+
+keywords:
+  - Retrieval-Augmented Generation
+  - RAG
+  - Local AI
+  - FAISS
+  - Ollama
+  - Streamlit
+  - Enterprise AI
+  - Document Intelligence
+  - Data Privacy
+
+abstract: >
+  RAGStack is a fully local, privacy-first Retrieval-Augmented
+  Generation (RAG) framework for enterprise document intelligence and question answering. It integrates
+  PyMuPDF for parsing, SentenceTransformers for embedding generation, FAISS for local
+  semantic retrieval, and Ollama-hosted large language models (LLMs) for response
+  generation. Featuring auto-indexing, manifest-based deduplication, self-healing
+  index rebuilding, and normalized (0–1) similarity scoring, the framework enables
+  compliance-ready AI deployment in offline or air-gapped enterprise environments.
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Srivastava"
+      given-names: "Mohit"
+  title: "RAGStack: A Privacy-First GenAI Retrieval-Augmented Generation Architecture for Secure Enterprise Document Intelligence"
+  year: 2025
+  doi: "10.5281/zenodo.XXXXXXX"  # To be updated after DOI is generated
+  notes: "Preprint available on TechRxiv (pending publication)."
+
