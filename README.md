@@ -1,10 +1,12 @@
 # 🏢 RAGStack 
 *Reference implementation of **RAGStack: A Privacy-First GenAI Retrieval-Augmented Generation Architecture for Secure Enterprise Document Intelligence***  
+ ⭐ If you find this project useful, please **star the repository** — it helps visibility and supports ongoing research.
+
 
 <p align="center">
   <a href="https://github.com/mosriva/ragstack/stargazers"><img src="https://img.shields.io/github/stars/mosriva/ragstack?style=flat-square&color=yellow" alt="GitHub Stars"></a>
   <a href="https://github.com/mosriva/ragstack/releases"><img src="https://img.shields.io/github/v/release/mosriva/ragstack?style=flat-square&color=blue" alt="Latest Release"></a>
-  <a href="https://zenodo.org/badge/latestdoi/zenodo.17878948"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17878948.svg" alt="DOI"></a>
+  <a href="https://doi.org/10.5281/zenodo.17878948"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17878948.svg" alt="DOI"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"></a>
   <a href="https://techrxiv.org"><img src="https://img.shields.io/badge/Preprint-TechRxiv-orange?style=flat-square" alt="TechRxiv"></a>
 </p>
@@ -12,7 +14,7 @@
 ---
 
 ## 📘 Overview
-The **RAGStack (v1.0.0)** is the reference implementation of the **RAGStack** architecture described in the paper  
+The **RAGStack (v1.0.0)** is the reference implementation of the architecture described in the paper  
 “*RAGStack: A Privacy-First GenAI Retrieval-Augmented Generation Architecture for Secure Enterprise Document Intelligence*”.
 It combines **Ollama**, **FAISS**, and **Streamlit** to deliver an air-gapped GenAI workflow — ensuring **data privacy**, **cloud-free execution**, and **reproducibility**.
 This project demonstrates how modular, open-source GenAI architectures can power internal enterprise search, compliance review, and knowledge-retrieval systems.
@@ -50,7 +52,7 @@ DOCUMENT INGESTION & VECTORIZATION                   QUERY, RETRIEVAL & LOCAL RE
 
 
 ──────────────────────────────────                    ──────────────────────────────────
-
+<pre>
     ┌──────────────────────────┐                       ┌──────────────────────────┐
     │      PDF Documents       │                       │        User Query        │
     │  Uploaded via Streamlit  │                       │   Streamlit Q&A Form     │
@@ -94,7 +96,7 @@ DOCUMENT INGESTION & VECTORIZATION                   QUERY, RETRIEVAL & LOCAL RE
                                    │ • Exportable Audit Logs (CSV)    │
                                    └──────────────────────────────────┘
 
-
+</pre>
 ---
 ## ⚙️ Components and Workflow
 
@@ -210,7 +212,7 @@ The policy highlights risks related to unauthorized access, data-retention viola
 ## 📊 Evaluation Summary
 | Metric                 | Description                                 | Result (Example) |
 | ---------------------- | ------------------------------------------- | ---------------- |
-| Response Latency       | Avg. query time (Mistral 7B local)          | ~5-15 s           |
+| Response Latency       | Avg. query time (Mistral 7B local)          | ~8-15s (CPU Only)|
 | Retrieval Precision    | Relevance of retrieved chunks (manual eval) | 0.89             |
 | Context Token Coverage | % of retrieved text used in final prompt    | ~78 %            |
 | Memory Usage           | Peak FAISS index memory (100 PDFs)          | ~180 MB          |
@@ -244,25 +246,41 @@ ragstack/
 This project is released under the MIT License.
 You are free to use, modify, and distribute it with attribution.
 
+## 🎓 Who Can Use RAGStack?
+RAGStack is designed for:
+
+- Enterprise teams working in secure or regulated environments  
+- Researchers exploring local RAG architectures  
+- Students preparing for professional exams or reviewing large PDF sets  
+- Developers building custom Q&A systems without cloud dependencies  
+
 ## 🧠 Citation
 
 If you use this work in your research, please cite:
 
 Srivastava, M. (2025). RAGStack: A Privacy-First GenAI Retrieval-Augmented Generation Architecture for Secure Enterprise Document Intelligence. Zenodo. https://doi.org/10.5281/zenodo.17878948
 
+### 📚 BibTeX
+```
+@article{srivastava2025ragstack,
+  title={RAGStack: A Privacy-First GenAI Retrieval-Augmented Generation Architecture for Secure Enterprise Document Intelligence},
+  author={Srivastava, Mohit},
+  year={2025},
+  doi={10.5281/zenodo.17878948},
+  journal={Zenodo},
+}
+```
+
 ## ⭐ Support the Project
+If RAGStack helps your research or enterprise work, please consider:
 
-If you find this project useful, please consider:
+- ⭐ **Starring the repository**  
+- 🔄 **Sharing it with colleagues or students**  
+- 🐛 **Submitting issues or enhancement ideas**  
+- 📝 **Citing the Zenodo DOI in academic work**
 
-⭐ Starring the repository
+These actions increase visibility and support future development.
 
-🔁 Sharing it with colleagues
-
-🧩 Contributing enhancements or reporting issues
-
-📝 Citing the Zenodo DOI in your research
-
-These help increase the project's visibility and academic impact.
 
 ## 🙌 Acknowledgments & Inspiration
 
